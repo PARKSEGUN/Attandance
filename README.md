@@ -13,4 +13,4 @@
 - 2024.03.11 - HTML을 꾸며주는 CSS를 사용하는 방식의 효율성을 높여주기위해서 **부트스트랩**이 만들어졌다. 클래스의 이름에 해당 엘리먼트가 가질 수 있는 성질을 정의해준다.
 - 2024.03.14 - 인덱스는 Clustered Index와 None Clustered Index가 있다. Clustered Index는 실제 데이 데이터를 지정된 컬럼을 기준으로 정렬시킨다. Index  Page에는 키값과 실제 정렬된 데이터 페이지를 연결할 수 있는 페이지 번호가 저장되어있다. (테이블당 하나)
   None Clustered Index는 별도의 장소에 인덱스 페이지를 생성한 후 만들어진 인덱스 페이지를 통해 실제 데이터에 접근한다. (테이블당 여러개 가능)
-- 2024.03.18 - DB 드라이버로 Connection을 생성하고, Connection으로 PrepareStatement를 생성하고, PrepareStatement로 ResultSet을 생성하는 순서가 DB와 웹을 연결하는 순서이다.
+- 2024.03.18 - DB 드라이버로 Connection을 생성하고, Connection으로 PrepareStatement를 생성하고, PrepareStatement로 ResultSet을 생성하는 순서가 자바 언어로 DB에 연결하고 쿼리를 실행할 수 있도록 하는 API
